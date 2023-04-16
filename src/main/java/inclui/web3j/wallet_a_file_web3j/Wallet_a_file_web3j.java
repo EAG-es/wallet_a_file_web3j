@@ -249,7 +249,14 @@ public class Wallet_a_file_web3j extends iniciales {
         }
         return ok.es;
     }
-    
+    /**
+     * Crea una nueva wallet y un archivo de credenciales para conectar con ella
+     * @param clave
+     * @param ok
+     * @param extras_array
+     * @return
+     * @throws Exception 
+     */
     public String crear_wallet_web3(String clave, oks ok, Object ... extras_array) throws Exception {
         String texto = null;
         try {
@@ -266,7 +273,15 @@ public class Wallet_a_file_web3j extends iniciales {
         }
         return texto;
     }
-
+    /**
+     * Genera un archivo de credenciales a partir de la clave privada.
+     * @param clave
+     * @param clave_privada
+     * @param ok
+     * @param extras_array
+     * @return
+     * @throws Exception 
+     */
     public String importar_wallet_web3(String clave, String clave_privada, oks ok, Object ... extras_array) throws Exception {
         String texto = null;
         try {
