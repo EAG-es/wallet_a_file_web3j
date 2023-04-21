@@ -25,7 +25,6 @@ public class Wallet_a_file_web3j extends iniciales {
     public static String k_in_ruta = "in/inclui/web3j/wallet_a_file_web3j/in";  //NOI18N
     public static String k_wallet_ruta = "/re";  
     public static String k_web3_endpoint_https = "web3_endpoint_https";
-    public static String k_web3_endpoint_wss = "web3_endpoint_wss";
     public static String k_boton_nueva_wallet = "boton_nueva_wallet";
     public static String k_texto_claves_privadas = "texto_claves_privadas";
     public static String k_texto_clave_archivo_wallet = "texto_clave_archivo_wallet";
